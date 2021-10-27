@@ -27,6 +27,10 @@
 	cursor: url(https://i.ibb.co/r5cJxG0/Halloween-Pumpkin-Dance-Cursor.png) 36 36, auto;
 }
 
+a, button {
+	cursor: url(https://i.ibb.co/LCGYZM3/image.png) 36 36, auto;
+}
+
 .border {
 	border-color: var(--primary) !important;
 }
@@ -74,7 +78,7 @@ pre {
 	color: #7a7a7a !important;
 }
 
-/*Halloween Theming*/
+/* Halloween Theming */
 
 .post-title a {
     font-family: Mystery Quest;
@@ -91,6 +95,41 @@ pre {
 	transform: rotate(180deg);
 }
 
+/* Cob Webs */
+
+body::before {
+	content: '';
+	position: fixed;
+	background-image: url('https://i.ibb.co/PjYVnsp/pngwing-com.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	left: -1.5rem;
+	bottom: -1.5rem;
+	width: 170px;
+	height: 230px;
+	z-index: 10001;
+	pointer-events: none;
+	transform: rotate(180deg);
+	opacity: .5;
+}
+
+body::after {
+	content: '';
+	position: fixed;
+	background-image: url('https://i.ibb.co/QvD1XmR/Png-Item-6513764.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	right: -1.5rem;
+	top: -1.5rem;
+	width: 200px;
+	height: 200px;
+	z-index: 10001;
+	pointer-events: none;
+	opacity: .45;
+}
+
+/* Blood Effect */
+
 .blood::before {
 	content: '';
 	position: absolute;
@@ -101,6 +140,8 @@ pre {
 	top: 0;
 	left: 0;
 }
+
+/* Haunted Effect */
 
 img .haunted {
   animation: haunted 3s infinite;
