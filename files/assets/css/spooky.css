@@ -178,6 +178,7 @@ img .haunted {
 	background-color:var(--dark);
 	background-image:url('https://i.imgur.com/Jjo6cJZ.png');
 	min-height:100%;
+	height: 340px;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -203,11 +204,11 @@ img .haunted {
   	font-size:4em;
   	font-family: 'Emilys Candy', sans-serif;
   	width:8em;
-  	height:2.5em;
+  	height:4em;
   	max-width:8em;
   	position:relative;
   	color:var(--primary);
-  	
+
   }
   .banner-halloween .happy{
   	font-family: lato, sans-serif;
@@ -221,7 +222,7 @@ img .haunted {
   .banner-halloween .halloween{
   	position:relative;
   	display:block;
-  	
+
   }
   .banner-halloween .halloween span{
   	position:absolute;
