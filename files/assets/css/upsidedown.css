@@ -19,10 +19,7 @@
     rgba(0,0,0,.5) 80%,
     rgba(0,0,0,.93) 100%
   );
-  animation-name: lightning;
-  animation-duration: 1350ms;
-  animation-delay: 5000ms;
-  animation-iteration-count: 1;
+  /*animation-name: lightning 1350ms 5000ms 1;*/
 }
 
 @media (max-width: 767.98px) {
@@ -143,7 +140,7 @@ canvas.particles {
   }
 }
 
-.demogorgon {
+#demogorgon.audio-playing {
   position: fixed;
   left: 20%;
   bottom: -5px;
@@ -154,6 +151,7 @@ canvas.particles {
   animation-duration: 1350ms;
   animation-delay: 5000ms;
   animation-iteration-count: 1;
+  animation-timing-function: step-end;
 }
 
 /* Modify existing element styling to function with theme */
