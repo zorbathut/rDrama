@@ -140,13 +140,17 @@ canvas.particles {
   }
 }
 
+#demogorgan {
+  display: none;
+}
+
 #demogorgon.audio-playing {
   position: fixed;
+  display: block;
   left: 20%;
   bottom: -5px;
   width: 220px;
   filter: brightness(.17);
-  opacity: 0;
   animation-name: lightning-appear;
   animation-duration: 1350ms;
   animation-delay: 5000ms;
