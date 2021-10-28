@@ -3,6 +3,8 @@
   cursor: none;
   --cursorX: 50vw;
   --cursorY: 50vh;
+  animation: flicker 2s;
+  animation-delay: 5000;
 }
 
 :root::before {
