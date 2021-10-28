@@ -37,9 +37,10 @@
 }
 
 body {
-  /*background-image: url('https://i.ibb.co/WWYL1TP/446e3b79395a287ca32f7977dd83b290.jpg');
+  background-image: url('https://i.ibb.co/WWYL1TP/446e3b79395a287ca32f7977dd83b290.jpg');
   background-size: cover;
-  background-attachment: fixed;*/
+  background-attachment: fixed;
+  background-color: transparent;
   filter: sepia(100%) hue-rotate(180deg) saturate(300%);
 }
 
@@ -163,7 +164,7 @@ canvas.particles {
   animation-duration: 1350ms;
   animation-delay: 5000ms;
   animation-iteration-count: 1;
-  animation-timing-function: step-end;
+  animation-timing-function: linear;
   animation-fill-mode: forwards;
 }
 
