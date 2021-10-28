@@ -3,6 +3,9 @@
   cursor: none;
   --cursorX: 50vw;
   --cursorY: 50vh;
+  background-image: url('https://i.ibb.co/WWYL1TP/446e3b79395a287ca32f7977dd83b290.jpg');
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 :root::before {
@@ -34,9 +37,9 @@
 }
 
 body {
-  background-image: url('https://i.ibb.co/WWYL1TP/446e3b79395a287ca32f7977dd83b290.jpg');
+  /*background-image: url('https://i.ibb.co/WWYL1TP/446e3b79395a287ca32f7977dd83b290.jpg');
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed;*/
   filter: sepia(100%) hue-rotate(180deg) saturate(300%);
 }
 
@@ -71,7 +74,7 @@ canvas.particles {
   35% {
     opacity: 0;
   }
-  90% {
+  70% {
     opacity: 1;
   }
 }
@@ -98,7 +101,7 @@ canvas.particles {
   35% {
     opacity: 0;
   }
-  90% {
+  70% {
     opacity: 1;
   }
   100% {
