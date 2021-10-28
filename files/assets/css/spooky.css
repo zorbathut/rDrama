@@ -195,6 +195,7 @@ img .haunted {
 	align-content: center;
 	align-items: center;
 	overflow:hidden;
+	margin-top: -3px;
 	margin-bottom: 0.5rem;
 }
 
