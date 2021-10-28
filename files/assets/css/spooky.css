@@ -238,199 +238,68 @@ img .haunted {
   }
 
   /* TITLE CHARACTERS */
-  .char1 {
-  	font-size: 1.15em;
-  	left: 0;
-  	color: #FB8B24;
-  	-webkit-animation: bounce-in 1000ms linear both;
-  	animation: bounce-in 1000ms linear both;
-  }
-
-  .char2 {
-  	font-size: 0.75em;
-  	top: 0.25em;
-  	left: 1.1em;
-  	color: #F66A3C;
-  	-webkit-animation: bounce-in 1000ms linear both;
-  	animation: bounce-in 1000ms linear both;
-  	-webkit-animation-delay: 300ms;
-  	animation-delay: 200ms;
-  }
-
-  .char3 {
-  	font-size: 0.65em;
-  	left: 2.25em;
-  	top: 0.25em;
-  	color: #FCA413;
-  	-webkit-animation: bounce-in 1000ms linear both;
-  	animation: bounce-in 1000ms linear both;
-  	-webkit-animation-delay: 200ms;
-  	animation-delay: 250ms;
-  }
-
-  .char4 {
-  	font-size: 0.85em;
-  	left: 2.25em;
-  	top: 0.25em;
-  	color: #FB8B24;
-  	-webkit-animation: bounce-in 1000ms linear both;
-  	animation: bounce-in 1000ms linear both;
-  	-webkit-animation-delay: 300ms;
-  	animation-delay: 300ms;
-  }
-
-  .char5 {
-  	font-size: 0.55em;
-  	left: 4.65em;
-  	top: 0.5em;
-  	color: #F66A3C;
-  	-webkit-animation: bounce-in 1000ms linear both;
-  	animation: bounce-in 1000ms linear both;
-  	-webkit-animation-delay: 250ms;
-  	animation-delay: 350ms;
-  }
-
-  .char6 {
-  	font-size: 0.55em;
-  	left: 6.75em;
-  	top: 0.5em;
-  	color: #F66A3C;
-  	-webkit-animation: bounce-in 1000ms linear both;
-  	animation: bounce-in 1000ms linear both;
-  	-webkit-animation-delay: 300ms;
-  	animation-delay: 400ms;
-  }
-
-  .char7 {
-  	font-size: 0.9em;
-  	left: 3.65em;
-  	top: 0.05em;
-  	color: #FB8B24;
-  	-webkit-animation: bounce-in 1000ms linear both;
-  	animation: bounce-in 1000ms linear both;
-  	-webkit-animation-delay: 500ms;
-  	animation-delay: 500ms;
-  }
-
-  .char8 {
-  	font-size: 0.55em;
-  	left: 7.2em;
-  	color: #FCA413;
-  	-webkit-animation: bounce-in 1000ms linear both;
-  	animation: bounce-in 1000ms linear both;
-  	-webkit-animation-delay: 600ms;
-  	animation-delay: 600ms;
-  }
-
-  .char9 {
-  	font-size: 0.9em;
-  	left: 4.7em;
-  	top: -0.01em;
-  	color: #F66A3C;
-  	-webkit-animation: bounce-in 1000ms linear both;
-  	animation: bounce-in 1000ms linear both;
-  	-webkit-animation-delay: 600ms;
-  	animation-delay: 600ms;
-  }
-
-  .char10 {
-  	font-size: 0.65em;
-  	left: 7.15em;
-  	top: -0.01em;
-  	color: #FCA413;
-  	-webkit-animation: bounce-in 1000ms linear both;
-  	animation: bounce-in 1000ms linear both;
-  	-webkit-animation-delay: 700ms;
-  	animation-delay: 700ms;
-  }
-
-  .char11 {
-  	font-size: 0.55em;
-  	left: 9.4em;
-  	top: 0.5em;
-  	color: #FCA413;
-  	-webkit-animation: bounce-in 1000ms linear both;
-  	animation: bounce-in 1000ms linear both;
-  	-webkit-animation-delay: 800ms;
-  	animation-delay: 800ms;
-  }
-
-  .char12 {
-  	font-size: 1.15em;
-  	left: 7em;
-  	top: -0.01em;
-  	color: #FCA413;
-  	-webkit-animation: bounce-in 1000ms linear both;
-  	animation: bounce-in 1000ms linear both;
-  	-webkit-animation-delay: 800ms;
-  	animation-delay: 800ms;
-  }
-
-  .char13 {
-  	font-size: 1.15em;
-  	left: 5.1em;
-  	top: -0.01em;
-  	color: #FCA413;
-  	-webkit-animation: bounce-in 1000ms linear both;
-  	animation: bounce-in 1000ms linear both;
-  	-webkit-animation-delay: 800ms;
-  	animation-delay: 800ms;
-  }
-
-  .char14 {
-  	font-size: 0.76em;
-  	left: 9em;
-  	top: -0.01em;
-  	color: #FB8B24;
-  	-webkit-animation: bounce-in 1000ms linear both;
-  	animation: bounce-in 1000ms linear both;
-  	-webkit-animation-delay: 1100ms;
-  	animation-delay: 1100ms;
-  }
-
-  .char15 {
-  	font-size: 0.76em;
-  	left: 9.6em;
-  	top: 0.25em;
-  	color: #F66A3C;
-  	-webkit-animation: bounce-in 1000ms linear both;
-  	animation: bounce-in 1000ms linear both;
-  	-webkit-animation-delay: 1000ms;
-  	animation-delay: 1000ms;
-  }
-
-  .char16 {
-  	font-size: 0.76em;
-  	left: 10.35em;
-  	top: -0.01em;
-  	color: #FB8B24;
-  	-webkit-animation: bounce-in 1000ms linear both;
-  	animation: bounce-in 1000ms linear both;
-  	-webkit-animation-delay: 1100ms;
-  	animation-delay: 1100ms;
-  }
-
-  .char17 {
-  	font-size: 0.65em;
-  	left: 12.75em;
-  	top: 0.5em;
-  	color: #FCA413;
-  	-webkit-animation: bounce-in 1000ms linear both;
-  	animation: bounce-in 1000ms linear both;
-  	-webkit-animation-delay: 1200ms;
-  	animation-delay: 1200ms;
-  }
-
-  .char18 {
-  	font-size: 0.55em;
-  	left: 16em;
-  	top: -0.01em;
-  	color: #F66A3C;
-  	-webkit-animation: bounce-in 1000ms linear both;
-  	animation: bounce-in 1000ms linear both;
-  	-webkit-animation-delay: 1200ms;
-  	animation-delay: 1200ms;
-  }
+.char1{ /*H*/
+  font-size:1.15em;
+  left:0;
+  color:#FB8B24;
+  animation:bounce-in 1000ms linear both;
+}
+.char2{ /*O*/
+  font-size:0.75em;
+  top:.25em;
+  left:1.25em;
+  color:#F66A3C;
+  animation:bounce-in 1000ms linear both;
+  animation-delay:300ms;
+}
+.char3{ /*M*/
+  font-size:.65em;
+  left:2.5em;
+  top:0.25em;
+  color:#FCA413;
+  animation:bounce-in 1000ms linear both;
+  animation-delay:500ms;
+}
+.char4{ /*O*/
+  font-size:.85em;
+  left:2.7em;
+  top:.25em;
+  color:#FB8B24;
+  animation:bounce-in 1000ms linear both;
+  animation-delay:200ms;
+}
+.char5{ /*W*/
+  font-size:.9em;
+  left:3.25em;
+  top:-0.01em;
+  color:#F66A3C;
+  animation:bounce-in 1000ms linear both;
+  animation-delay:250ms;
+}
+.char6{ /*E*/
+  font-size:0.76em;
+  left:4.65em;
+  top:0.05em;
+  color:#FCA413;
+  animation:bounce-in 1000ms linear both;
+  animation-delay:800ms;
+}
+.char7{ /*E*/
+  font-size: 0.9em;
+  left: 4.6em;
+  top: 0.05em;
+  color:#FB8B24;
+  animation:bounce-in 1000ms linear both;
+  animation-delay:700ms;
+}
+.char8{ /*N*/
+  font-size:0.75em;
+  left:6.5em;
+  top:0.25em;
+  color:#F66A3C;
+  animation:bounce-in 1000ms linear both;
+  animation-delay:1100ms;
+}
 
 
   @keyframes bounce-in{0%{transform:matrix3d(0.00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
