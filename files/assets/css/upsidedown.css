@@ -3,8 +3,6 @@
   cursor: none;
   --cursorX: 50vw;
   --cursorY: 50vh;
-  animation: flicker 2s;
-  animation-delay: 5000;
 }
 
 :root::before {
@@ -21,6 +19,8 @@
     rgba(0,0,0,.5) 80%,
     rgba(0,0,0,.9) 100%
   )
+  animation: flicker 2s;
+  animation-delay: 5000;
 }
 
 body {
