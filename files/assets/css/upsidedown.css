@@ -158,7 +158,7 @@ canvas.particles {
   display: block;
   left: 10%;
   bottom: -500px;
-  width: 100%;
+  width: 720px;
   filter: brightness(.17);
   animation-name: lightning-appear;
   animation-duration: 1350ms;
