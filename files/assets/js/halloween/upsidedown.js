@@ -121,7 +121,7 @@ function play() {
 
 window.addEventListener( 'load', function() {
   audio.play();
-  document.getElementById('thread').addEventListener('mousemove', () => {
+  document.getElementById('thread').addEventListener('click', () => {
     console.log('Watch out for the Demogorgan.')
     if (audio.paused) audio.play(); 
   }, {once : true});
