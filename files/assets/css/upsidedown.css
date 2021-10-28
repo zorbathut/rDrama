@@ -90,7 +90,3 @@ canvas.particles {
 .comment-write {
   z-index: 1;
 }
-
-canvas.sketch {
-  transform: rotate(180deg);
-}
