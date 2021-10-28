@@ -13,8 +13,12 @@
   height: 100%;
   position: fixed;
   pointer-events: none;
-  animation: flashlight 2s;
-  animation-delay: 5000;
+  background: radial-gradient(
+    circle 10vmax at var(--cursorX) var(--cursorY),
+    rgba(0,0,0,0) 0%,
+    rgba(0,0,0,.5) 80%,
+    rgba(0,0,0,.9) 100%
+  )
 }
 
 body {
@@ -66,25 +70,6 @@ canvas{
   }
   100% {
     filter: brightness(90%);
-  }
-}
-
-@keyframes flashlight {
-  50% {
-    background: radial-gradient(
-      circle 10vmax at var(--cursorX) var(--cursorY),
-      rgba(0,0,0,0) 0%,
-      rgba(0,0,0,.5) 80%,
-      rgba(0,0,0,.9) 100%
-      )
-  }
-  75% {
-    background: radial-gradient(
-      circle 10vmax at var(--cursorX) var(--cursorY),
-      rgba(0,0,0,0) 0%,
-      rgba(0,0,0,.2) 80%,
-      rgba(0,0,0,.3) 100%
-      )
   }
 }
 
