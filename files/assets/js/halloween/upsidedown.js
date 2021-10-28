@@ -123,7 +123,7 @@ window.addEventListener( 'load', function() {
   audio.play();
   document.getElementById('thread').addEventListener('click', () => {
     console.log('Watch out for the Demogorgon.');
-    document.querySelector(":root").style.animation = 'lightning 1350ms linear 36800ms 1'
+    document.querySelector(":root").style.animation = 'lightning 1350ms linear 37400ms 1'
     document.getElementById('demogorgon').classList.add('audio-playing');
     if (audio.paused) audio.play(); 
   }, {once : true});
