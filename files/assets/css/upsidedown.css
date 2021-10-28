@@ -19,6 +19,10 @@
     rgba(0,0,0,.5) 80%,
     rgba(0,0,0,.93) 100%
   );
+  animation-name: lightning;
+  animation-duration: 1350ms;
+  animation-delay: 5000ms;
+  animation-iteration-count: 1;
 }
 
 @media (max-width: 767.98px) {
@@ -43,9 +47,63 @@ canvas.particles {
   position: fixed;
   left: 0;
   top: 0;
-  /*z-index: 1;*/
+  z-index: 1;
   filter: blur(1.5px);
   animation: flicker 4s infinite;
+}
+
+@keyframes lightning {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  13% {
+    opacity: 0;
+  }
+  16% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  35% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+}
+
+@keyframes lightning-appear {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  13% {
+    opacity: 0;
+  }
+  16% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  35% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
 }
 
 @keyframes flicker {
@@ -83,6 +141,18 @@ canvas.particles {
   100% {
     filter: brightness(90%);
   }
+}
+
+.demogorgon {
+  position: fixed;
+  left: 20%;
+  bottom: -5px;
+  width: 220px;
+  filter: brightness(.17);
+  animation-name: lightning;
+  animation-duration: 1350ms;
+  animation-delay: 5000ms;
+  animation-iteration-count: 1;
 }
 
 /* Modify existing element styling to function with theme */
