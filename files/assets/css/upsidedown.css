@@ -72,3 +72,9 @@ canvas{
     filter: brightness(90%);
   }
 }
+
+/* Modify existing element styling to function with theme */
+
+.comment-write {
+  z-index: 1;
+}
