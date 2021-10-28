@@ -210,7 +210,7 @@ class StageManager {
         requestAnimationFrame(() => this.tick());
     }
 }
-let stageManager = new StageManager(Snap('ghost'));
+let stageManager = new StageManager(Snap('svg'));
 stageManager.init();
 makeGhost();
 function makeGhost() {
