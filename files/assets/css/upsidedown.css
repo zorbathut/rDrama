@@ -162,7 +162,7 @@ canvas.particles {
   filter: brightness(.17);
   animation-name: lightning-appear;
   animation-duration: 1350ms;
-  animation-delay: 5000ms;
+  animation-delay: 34650ms;
   animation-iteration-count: 1;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
