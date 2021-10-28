@@ -101,6 +101,10 @@ canvas.particles {
   90% {
     opacity: 1;
   }
+  100% {
+    opacity: 0;
+    display: none;
+  }
 }
 
 @keyframes flicker {
@@ -140,11 +144,11 @@ canvas.particles {
   }
 }
 
-#demogorgan {
+.demogorgan {
   display: none;
 }
 
-#demogorgon.audio-playing {
+.demogorgon.audio-playing {
   position: fixed;
   display: block;
   left: 20%;
@@ -156,6 +160,7 @@ canvas.particles {
   animation-delay: 5000ms;
   animation-iteration-count: 1;
   animation-timing-function: step-end;
+  animation-fill-mode: forwards;
 }
 
 /* Modify existing element styling to function with theme */
