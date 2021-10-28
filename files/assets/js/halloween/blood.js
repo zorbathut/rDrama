@@ -7,11 +7,11 @@
   This pen was inspired by Katy Decorah's BLOOD: https://codepen.io/katydecorah/pen/Lkogi
 */
 
-var c = Sketch.create({autoclear: false}),
+var blood = Sketch.create({autoclear: false}),
     drops = [],
     dropCount = 75,
     Drop = function() {
-      this.x = random(0,c.width);
+      this.x = random(0,blood.width);
       this.radius = random(2.5,5);
       this.y = -this.radius - random(10,50);
       this.vy = this.radius/3;
@@ -20,7 +20,7 @@ var c = Sketch.create({autoclear: false}),
       this.b = ~~random(0,20);
     }; 
 
-c.update = function() {
+blood.update = function() {
   var d = drops.length;
   while(d < dropCount) {
     var drop = new Drop();
@@ -30,19 +30,19 @@ c.update = function() {
   while(d--) {
     var drop = drops[d];
     drop.y += drop.vy;
-    if(drop.y - drop.radius > c.height) {
+    if(drop.y - drop.radius > blood.height) {
       drops.splice(d,1);
     }
   }
 }
 
-c.draw = function() {
+blood.draw = function() {
   var d = drops.length;
   while(d--) {
     var drop = drops[d];
-    c.beginPath();
-    c.fillStyle = 'rgba('+drop.r+','+drop.g+','+drop.b+',.8)';
-    c.arc(drop.x,drop.y,drop.radius,0,TWO_PI);
-    c.fill();
+    blood.beginPath();
+    blood.fillStyle = 'rgba('+drop.r+','+drop.g+','+drop.b+',.8)';
+    blood.arc(drop.x,drop.y,drop.radius,0,TWO_PI);
+    blood.fill();
   }
 } 
