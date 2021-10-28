@@ -5,7 +5,8 @@
   --cursorY: 50vh;
 }
 
-:root:before {
+:root::before {
+  z-index: 1;
   content: '';
   display: block;
   width: 100%;
@@ -23,11 +24,16 @@
 body {
   background-image: url('https://i.ibb.co/WWYL1TP/446e3b79395a287ca32f7977dd83b290.jpg');
   background-size: cover;
-  filter: sepia(100%) hue-rotate(180deg) saturate(100%);
+  filter: sepia(100%) hue-rotate(180deg) saturate(200%);
   animation: flicker 4s infinite;
 }
+
 canvas{
-  filter: blur(1px);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  filter: blur(1.5px);
 }
 
 @keyframes flicker {
