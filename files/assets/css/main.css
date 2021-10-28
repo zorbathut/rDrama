@@ -5487,10 +5487,10 @@ img.emoji {
   color: var(--primary) !important;
 }
 
-* {
+/** { REMOVED FOR HALLOWEEN EVENT
   -webkit-animation: None !important;
   animation: None !important;
-}
+}*/
 
 .patron {
   padding: 2px 5px 3px 5px !important;
