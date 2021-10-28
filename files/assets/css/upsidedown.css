@@ -149,6 +149,7 @@ canvas.particles {
 }
 
 .demogorgon.audio-playing {
+  opacity: 0;
   position: fixed;
   display: block;
   left: 20%;
