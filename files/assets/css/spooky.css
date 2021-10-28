@@ -502,3 +502,19 @@ Z-INDEX
         color: #FF2000;
 	}
 }
+
+/* Ghosts */
+
+.container-ghosts
+{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+svg .ghost
+{
+	z-index: 10;
+}
