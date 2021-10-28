@@ -10,8 +10,8 @@ document.addEventListener('mousemove',update)
 document.addEventListener('touchmove',update)
 
 let c = init("canvas"),
-  w = (canvas.width = window.innerWidth),
-  h = (canvas.height = window.innerHeight);
+w = (canvas.width = window.innerWidth),
+h = (canvas.height = window.innerHeight);
 //initiation
 
 class firefly{
@@ -41,16 +41,16 @@ function draw() {
   if(f.length < 100){
     for(let j = 0; j < 10; j++){
      f.push(new firefly());
-  }
-     }
+   }
+ }
   //animation
   for(let i = 0; i < f.length; i++){
     f[i].move();
     f[i].show();
     if(f[i].x < 0 || f[i].x > w || f[i].y < 0 || f[i].y > h){
-       f.splice(i,1);
-       }
-  }
+     f.splice(i,1);
+   }
+ }
 }
 
 let mouse = {};
@@ -66,12 +66,12 @@ canvas.addEventListener(
     mouse.y = e.pageY - this.offsetTop;
   },
   false
-);
+  );
 function init(elemid) {
   let canvas = document.getElementById(elemid),
-    c = canvas.getContext("2d"),
-    w = (canvas.width = window.innerWidth),
-    h = (canvas.height = window.innerHeight);
+  c = canvas.getContext("2d"),
+  w = (canvas.width = window.innerWidth),
+  h = (canvas.height = window.innerHeight);
   c.fillStyle = "rgba(30,30,30,1)";
   c.fillRect(0, 0, w, h);
   return c;
@@ -87,7 +87,7 @@ window.requestAnimFrame = (function() {
     function(callback) {
       window.setTimeout(callback);
     }
-  );
+    );
 });
 
 function loop() {
@@ -104,3 +104,26 @@ window.addEventListener("resize", function() {
 
 loop();
 setInterval(loop, 1000 / 60);
+
+// Audio
+
+var audio = new Audio('/songs/9');
+audio.loop=true;
+
+function pause() {
+  audio.pause();
+}
+
+function play() {
+  audio.play();
+}
+
+
+window.addEventListener( 'load', function() {
+  audio.play();
+  document.getElementById('userpage').addEventListener('mousemove', () => {
+    console.log('Watch out for the Demogorgan.')
+    if (audio.paused) audio.play(); 
+  }, {once : true});
+
+});
