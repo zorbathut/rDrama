@@ -545,9 +545,8 @@ a.user-name {
   .banner-halloween h1 {
     font-size:6em;
     font-family: 'Emilys Candy', sans-serif;
-    width:8em;
-    height:3em;
-    max-width:8em;
+    width:5.5em;
+    height:2.5em;
     position:relative;
     color:var(--primary);
   }
