@@ -521,13 +521,13 @@ Z-INDEX
 
 /* Ghost */
 
-#ghosts.ghosts {
-	position: fixed;
-	margin:0 auto;
-    display:block;
-    pointer-events: none;
+.username-reply span {
+  display: none;
 }
 
+.username:after {
+  content: '👻';
+}
 
 /* Spiders */
 
