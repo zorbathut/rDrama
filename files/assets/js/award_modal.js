@@ -83,7 +83,7 @@ function bruh(kind) {
 	document.getElementById('giveaward').disabled=false;
 	document.getElementById('kind').value=kind;
 	try {document.getElementsByClassName('picked')[0].classList.toggle('picked');} catch(e) {}
-	document.getElementById(kind).classList.toggle('picked')
+	document.getElementById(kind+'-award').classList.toggle('picked')
 	if (kind == "flairlock") {
 		document.getElementById('notelabel').innerHTML = "New flair:";
 		document.getElementById('note').placeholder = "Insert new flair here...";
