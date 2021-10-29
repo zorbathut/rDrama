@@ -38,7 +38,7 @@ function addNewParticle(delay)
   p.left = randBetween(-200,800);
 
   p.start = new Date().getTime() + delay;
-  p.life = 8000;
+  p.life = 20000;
   p.speedUp = 30;
 
 
@@ -104,8 +104,6 @@ function draw(startT, totalT)
       ctx.drawImage(smokeImage, newLeft, newTop, newSize, newSize);
     }
   }
-
-
 
   //Repeat if there's still a living particle
   if (stillAlive)
