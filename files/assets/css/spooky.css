@@ -24,11 +24,10 @@
 
 * {
 	border-color: var(--primary);
-	cursor: url(https://i.ibb.co/r5cJxG0/Halloween-Pumpkin-Dance-Cursor.png) 36 36, auto;
 }
 
-a, button {
-	cursor: url(https://i.ibb.co/LCGYZM3/image.png) 36 36, auto;
+a:hover.user-name {
+	cursor: url(https://i.ibb.co/C9vVnzs/Friday-the-13th-Jason-Voorhees-Cursor.png) 36 36, auto;
 }
 
 .border {
