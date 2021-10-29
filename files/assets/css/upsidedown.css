@@ -45,6 +45,7 @@ body {
 }
 
 canvas.particles {
+  pointer-events: none;
   position: fixed;
   left: 0;
   top: 0;
