@@ -215,6 +215,7 @@ body::after {
     height:69px;
     background:url('/assets/images/halloween/lights.png');
     animation: lights 1s infinite steps(2);
+    z-index: 4;
 }
 
 /* Upside Down Award Icon */
