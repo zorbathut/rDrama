@@ -151,6 +151,10 @@ body::after {
 
 /* Haunted Effect */
 
+.haunt {
+	animation: haunted 2s infinite;
+}
+
 @keyframes haunted {
 	0% {
 		filter: brightness(20%);
@@ -463,6 +467,10 @@ Z-INDEX
 
 /* Upside Down */
 
+.upsidedown.blood::before {
+	filter: invert(1)
+}
+
 /* Upside Down Award Icon */
 .fad.fa-lights-holiday:after {
 	animation: blinker 1s linear infinite;
@@ -513,7 +521,19 @@ Z-INDEX
 
 /* Ghost */
 
+/*.user-name *, .user-name-reply * {
+	display: none;
+}
+.user-name:after, .user-name-reply:after {
+	content: '👻';
+}
+a.user-name {
+	pointer-events: none;
+}*/
 
+.post-meta.ghosts .fa-broom, .post-meta.ghosts .fa-robot {
+	display: none;
+}
 
 /* Spiders */
 
@@ -729,4 +749,19 @@ Z-INDEX
 	50% {
 		transform: translateY(-30px);
 	}
+}
+
+/* Fog Effect */
+
+.fog {
+	opacity: 0.7;
+}
+
+#fog {
+	pointer-events: none;
+	position:fixed;
+	bottom:0;
+	left: 0;
+	width:100%;
+	z-index: 1;
 }
