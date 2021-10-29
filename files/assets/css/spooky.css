@@ -247,68 +247,68 @@ body::after {
   }
 
   /* TITLE CHARACTERS */
-.char1{ /*H*/
-  font-size:1.15em;
-  left:0;
-  color:#FB8B24;
-  animation:bounce-in 1000ms linear both;
-}
-.char2{ /*O*/
-  font-size:0.75em;
-  top:.25em;
-  left:1.25em;
-  color:#F66A3C;
-  animation:bounce-in 1000ms linear both;
-  animation-delay:300ms;
-}
-.char3{ /*M*/
-  font-size:.65em;
-  left:2.5em;
-  top:0.25em;
-  color:#FCA413;
-  animation:bounce-in 1000ms linear both;
-  animation-delay:500ms;
-}
-.char4{ /*O*/
-  font-size:.85em;
-  left:2.7em;
-  top:.25em;
-  color:#FB8B24;
-  animation:bounce-in 1000ms linear both;
-  animation-delay:200ms;
-}
-.char5{ /*W*/
-  font-size:.9em;
-  left:3.25em;
-  top:-0.01em;
-  color:#F66A3C;
-  animation:bounce-in 1000ms linear both;
-  animation-delay:250ms;
-}
-.char6{ /*E*/
-  font-size:0.76em;
-  left:4.65em;
-  top:0.05em;
-  color:#FCA413;
-  animation:bounce-in 1000ms linear both;
-  animation-delay:800ms;
-}
-.char7{ /*E*/
-  font-size: 0.9em;
-  left: 4.6em;
-  top: 0.05em;
-  color:#FB8B24;
-  animation:bounce-in 1000ms linear both;
-  animation-delay:700ms;
-}
-.char8{ /*N*/
-  font-size:0.75em;
-  left:6.5em;
-  top:0.25em;
-  color:#F66A3C;
-  animation:bounce-in 1000ms linear both;
-  animation-delay:1100ms;
-}
+  .char1{ /*H*/
+  	font-size:1.15em;
+  	left:0;
+  	color:#FB8B24;
+  	animation:bounce-in 1000ms linear both;
+  }
+  .char2{ /*O*/
+  	font-size:0.75em;
+  	top:.25em;
+  	left:1.25em;
+  	color:#F66A3C;
+  	animation:bounce-in 1000ms linear both;
+  	animation-delay:300ms;
+  }
+  .char3{ /*M*/
+  	font-size:.65em;
+  	left:2.5em;
+  	top:0.25em;
+  	color:#FCA413;
+  	animation:bounce-in 1000ms linear both;
+  	animation-delay:500ms;
+  }
+  .char4{ /*O*/
+  	font-size:.85em;
+  	left:2.7em;
+  	top:.25em;
+  	color:#FB8B24;
+  	animation:bounce-in 1000ms linear both;
+  	animation-delay:200ms;
+  }
+  .char5{ /*W*/
+  	font-size:.9em;
+  	left:3.25em;
+  	top:-0.01em;
+  	color:#F66A3C;
+  	animation:bounce-in 1000ms linear both;
+  	animation-delay:250ms;
+  }
+  .char6{ /*E*/
+  	font-size:0.76em;
+  	left:4.65em;
+  	top:0.05em;
+  	color:#FCA413;
+  	animation:bounce-in 1000ms linear both;
+  	animation-delay:800ms;
+  }
+  .char7{ /*E*/
+  	font-size: 0.9em;
+  	left: 4.6em;
+  	top: 0.05em;
+  	color:#FB8B24;
+  	animation:bounce-in 1000ms linear both;
+  	animation-delay:700ms;
+  }
+  .char8{ /*N*/
+  	font-size:0.75em;
+  	left:6.5em;
+  	top:0.25em;
+  	color:#F66A3C;
+  	animation:bounce-in 1000ms linear both;
+  	animation-delay:1100ms;
+  }
 
 
   @keyframes bounce-in{0%{transform:matrix3d(0.00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
@@ -475,40 +475,40 @@ Z-INDEX
 	10% {
 		opacity: 0;
 	}
-    20% {
+	20% {
 		opacity: 0.2;
-        color: #FFD600;
+		color: #FFD600;
 	}
-    30% {
+	30% {
 		opacity: 0;
 	}
-    40% {
+	40% {
 		opacity: 0.6;
-        color: #FFD600;
+		color: #FFD600;
 	}
-    45% {
+	45% {
 		opacity: 0;
 	}
 	50% {
 		opacity: 0.2;
-        color: #FFD600;
-        
+		color: #FFD600;
+
 	}
 	70% {
 		opacity: 0.4;
-        color: #FF2000;
+		color: #FF2000;
 	}
 	90% {
 		opacity: 0;
 	}
-    92% {
+	92% {
 		opacity: 0.8;
-        color: #FF2000;
-        
+		color: #FF2000;
+
 	}
-    100% {
+	100% {
 		opacity: 0.8;
-        color: #FF2000;
+		color: #FF2000;
 	}
 }
 
@@ -531,171 +531,205 @@ svg .ghost
 /* Spiders */
 
 .spider:nth-child(odd) {
-	animation-delay: 700ms;
+	animation-name: swingFast;
 }
 
 .spider:nth-child(2) {
+	animation-delay: 250ms;
+	animation-duration: 2100ms;
 	left: 20%;
 }
 
 .spider:nth-child(3) {
+	animation-delay: 300ms;
+	animation-duration: 1600ms;
 	left: 30%;
 }
 
 .spider:nth-child(4) {
+	animation-delay: 400ms;
+	animation-duration: 1800ms;
 	left: 40%;
 }
 
 .spider:nth-child(5) {
+	animation-delay: 240ms;
+	animation-duration: 1900ms;
 	left: 50%;
 }
 
 .spider:nth-child(6) {
+	animation-delay: 250ms;
+	animation-duration: 2300ms;
 	left: 60%;
 }
 
 .spider:nth-child(7) {
+	animation-delay: 400ms;
+	animation-duration: 800ms;
 	left: 70%;
 }
 
 .spider:nth-child(8) {
+	animation-delay: 5000ms;
+	animation-duration: 200ms;
 	left: 80%;
 }
 
 .spider:nth-child(9) {
+	animation-delay: 6000ms;
+	animation-duration: 10ms;
 	left: 90%;
 }
 
 .spider {
-  position: absolute;
-  display: inline-block;
-  top: 0;
-  left: 10%;
+	z-index: 1;
+	position: fixed;
+	display: inline-block;
+	top: 0;
+	left: 10%;
 
-  /* 4. Animatie */
-  animation: swing 2s infinite;
-  transform-origin: top;
+	/* 4. Animatie */
+	animation: swing 2s infinite;
+	transform-origin: top;
 
-  /* Bonus */
-  transition: 0.8s ease-in-out;
+	/* Bonus */
+	transition: 0.8s ease-in-out;
 }
 
 .spider .spiderweb {
-  width: 2px;
-  height: 200px;
-  margin-left: 49px;
-  background: rgba(255, 255, 255, 0.7);
+	width: 2px;
+	height: 200px;
+	margin-left: 49px;
+	background: rgba(255, 255, 255, 0.7);
 }
 
 .spider .body {
-  width: 100px;
-  height: 80px;
-  background: #222;
-  position: relative;
-  border-radius: 50%;
+	width: 100px;
+	height: 80px;
+	background: #222;
+	position: relative;
+	border-radius: 50%;
 }
 
 .spider .body .eye {
-  width: 25px;
-  height: 25px;
-  position: absolute;
-  bottom: 20px;
-  background: #fff;
-  border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	bottom: 20px;
+	background: #fff;
+	border-radius: 50%;
 }
 
 .spider .body .eye.left {
-  left: 20px;
+	left: 20px;
 }
 
 .spider .body .eye.right {
-  right: 20px;
+	right: 20px;
 }
 
 .spider .body .eye:after {
-  background: #222;
-  width: 7px;
-  height: 7px;
-  content: "";
-  display: block;
-  margin: 55%;
-  border-radius: 50%;
+	background: #222;
+	width: 7px;
+	height: 7px;
+	content: "";
+	display: block;
+	margin: 55%;
+	border-radius: 50%;
 
-  /* 3. Animatie */
-  animation: look 4s infinite;
+	/* 3. Animatie */
+	animation: look 4s infinite;
+}
+
+.spider:nth-child(odd) .body .eye:after {
+	animation-delay: 1400ms;
+	animation-duration: 3600ms;
 }
 
 .spider .legs .leg {
-  width: 80px;
-  height: 40px;
-  margin-top: -20px;
-  border: 5px solid transparent;
-  border-top-color: #333;
-  border-radius: 40px 40px 0 0;
+	width: 80px;
+	height: 40px;
+	margin-top: -20px;
+	border: 5px solid transparent;
+	border-top-color: #333;
+	border-radius: 40px 40px 0 0;
 }
 
 .spider .legs {
-  position: absolute;
-  bottom: -10%;
-  z-index: -1;
+	position: absolute;
+	bottom: -10%;
+	z-index: -1;
 }
 
 .spider .legs.left {
-  left: -70%;
+	left: -70%;
 }
 .spider .legs.right {
-  right: -60%;
+	right: -60%;
 }
 
 .legs.left .leg:nth-child(1) {
-  transform: rotate(10deg);
-  margin-left: 10px;
+	transform: rotate(10deg);
+	margin-left: 10px;
 }
 .legs.right .leg:nth-child(1) {
-  transform: rotate(-10deg);
-  margin-left: -10px;
+	transform: rotate(-10deg);
+	margin-left: -10px;
 }
 
 .legs.left .leg:nth-child(2) {
-  transform: rotate(-20deg);
-  margin-left: 20px;
+	transform: rotate(-20deg);
+	margin-left: 20px;
 }
 .legs.right .leg:nth-child(2) {
-  transform: rotate(20deg);
-  margin-left: -20px;
+	transform: rotate(20deg);
+	margin-left: -20px;
 }
 
 .legs.left .leg:nth-child(3) {
-  transform: rotate(-50deg);
-  margin-left: 30px;
+	transform: rotate(-50deg);
+	margin-left: 30px;
 }
 .legs.right .leg:nth-child(3) {
-  transform: rotate(50deg);
-  margin-left: -30px;
+	transform: rotate(50deg);
+	margin-left: -30px;
 }
 
 /* 1. Animatie */
 @keyframes look {
-  0%,
-  40%,
-  100% {
-    transform: translateX(0);
-  }
+	0%,
+	40%,
+	100% {
+		transform: translateX(0);
+	}
 
-  45%,
-  95% {
-    transform: translateX(-110%);
-  }
+	45%,
+	95% {
+		transform: translateX(-110%);
+	}
 }
 
 /* 3. Animatie */
 @keyframes swing {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
+	0%,
+	100% {
+		transform: translateY(0);
+	}
 
-  50% {
-    transform: translateY(-20px);
-  }
+	50% {
+		transform: translateY(-20px);
+	}
+}
+
+/* 3. Animatie */
+@keyframes swingFast {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+
+	50% {
+		transform: translateY(-30px);
+	}
 }
