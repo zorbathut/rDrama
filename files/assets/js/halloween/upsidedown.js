@@ -127,7 +127,7 @@ window.addEventListener( 'load', function() {
     console.log('Watch out for the Demogorgon.');
     document.querySelector(":root").style.animation = 'lightning 1350ms ease-out 36900ms 1, lightning 1350ms ease-out 66000ms 1'
     demogorgon1.classList.add('audio-playing');
-    setTimeout(function(){ demogorgon2.classList.add('audio-playing'); }, 66000);
+    setTimeout(function(){ demogorgon2.classList.add('audio-playing'); }, 66300);
     if (audio.paused) audio.play(); 
   }, {once : true});
 
