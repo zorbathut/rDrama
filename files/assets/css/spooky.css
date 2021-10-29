@@ -163,10 +163,10 @@ body::after {
 		filter: brightness(20%);
 	}
 	50% {
-		filter: sepia(1) contrast(2) brightness(200%);
+		filter: sepia(1) contrast(1.5) brightness(200%);
 	}
 	60% {
-		filter: sepia(1) contrast(2) brightness(200%);
+		filter: sepia(1) contrast(1.5) brightness(200%);
 	}
 	62% {
 		filter: brightness(20%);
