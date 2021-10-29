@@ -790,8 +790,21 @@ Z-INDEX
 
 .banner-halloween h1{z-index:10;}
 .banner-halloween .moon{z-index:2;}
+.banner-halloween .marsey-witch{z-index:2;}
 .banner-halloween .cloud{z-index:2;}
 .banner-halloween .cloud:nth-child(even){z-index:11;}
+
+/* Marsey */
+
+.marsey-witch {
+  animation-name:clouds;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+}
+
+.marsey-witch img {
+	width: 150px;
+}
 
 /* Stars */
 
