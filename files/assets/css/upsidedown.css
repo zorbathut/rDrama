@@ -82,27 +82,6 @@ canvas.particles {
 
 @keyframes lightning-appear {
   0% {
-    opacity: 0;
-  }
-  10% {
-    opacity: 1;
-  }
-  13% {
-    opacity: 0;
-  }
-  16% {
-    opacity: 1;
-  }
-  20% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 1;
-  }
-  35% {
-    opacity: 0;
-  }
-  60% {
     opacity: 1;
   }
   100% {
@@ -160,7 +139,7 @@ canvas.particles {
   bottom: -500px;
   width: 720px;
   filter: brightness(.17);
-  animation: lightning-appear 1350ms linear 36900ms 1 forwards
+  animation: lightning-appear 500ms step-end 36900ms 1 forwards
   /*animation-duration: 1350ms;
   animation-delay: 36900ms;
   animation-iteration-count: 1;
@@ -176,7 +155,7 @@ canvas.particles {
   bottom: -490px;
   width: 840px;
   filter: brightness(.2);
-  animation: lightning-appear 1350ms linear 1 forwards;
+  animation: lightning-appear 500ms step-end 1 forwards;
 }
 
 /* Modify existing element styling to function with theme */
