@@ -195,6 +195,27 @@ body::after {
 
 /* Upside Down Lights */
 
+@keyframes lights {
+    0% {
+       /*Two zeros, not one !!*/
+       /*[0] is equivalent to [0 50%] and will create a different animation */
+        background-position:0 0; 
+    } 
+    100% {
+        background-position:0 -138px;
+    }
+}
+
+.upsidedown .lights {
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+    height:69px;
+    background:url(https://i.imgur.com/BdGY6tH.png);
+    animation: lights 1s infinite steps(2);
+}
+
 /*.upsidedown .lightrope {
 	top: 0;
 	left: 0;
