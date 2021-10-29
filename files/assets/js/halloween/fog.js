@@ -8,7 +8,7 @@ pCount = 0;
 
 pCollection = new Array();
 
-var puffs = 1;
+var puffs = 10;
 var particlesPerPuff = 2000;
 var img = 'https://i.ibb.co/NsmgFMj/image.png';
 
