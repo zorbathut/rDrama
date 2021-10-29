@@ -127,11 +127,11 @@ canvas.particles {
   }
 }
 
-.demogorgon {
+#demogorgon-1, #demogorgon-2 {
   display: none;
 }
 
-.demogorgon.audio-playing {
+#demogorgon-1.audio-playing {
   opacity: 0;
   position: fixed;
   display: block;
@@ -147,7 +147,7 @@ canvas.particles {
   animation-fill-mode: forwards;*/
 }
 
-.demogorgon.audio-playing.second {
+#demogorgon-2.audio-playing {
   opacity: 0;
   position: fixed;
   display: block;

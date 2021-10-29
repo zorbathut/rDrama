@@ -120,13 +120,14 @@ function play() {
 
 
 window.addEventListener( 'load', function() {
-  let demogorgon = document.getElementById('demogorgon')
+  let demogorgon1 = document.getElementById('demogorgon1')
+  let demogorgon2 = document.getElementById('demogorgon2')
   //audio.play();
   document.getElementById('thread').addEventListener('click', () => {
     console.log('Watch out for the Demogorgon.');
     document.querySelector(":root").style.animation = 'lightning 1350ms ease-out 36900ms 1, lightning 1350ms ease-out 66000ms 1'
-    demogorgon.classList.add('audio-playing');
-    setTimeout(function(){ demogorgon.classList.add('second'); }, 66000);
+    demogorgon1.classList.add('audio-playing');
+    setTimeout(function(){ demogorgon2.classList.add('audio-playing'); }, 66000);
     if (audio.paused) audio.play(); 
   }, {once : true});
 
