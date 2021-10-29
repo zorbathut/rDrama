@@ -521,7 +521,7 @@ Z-INDEX
 
 /* Ghost */
 
-#ghost .ghost {
+#ghosts .ghosts {
 	position: fixed;
 	margin:0 auto;
     display:block;
