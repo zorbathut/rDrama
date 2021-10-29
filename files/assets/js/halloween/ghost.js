@@ -20,7 +20,7 @@ class Application {
    * Application constructor
    */
   constructor() {
-    this.canvas = document.getElementById("ghost");
+    this.canvas = document.getElementById("ghosts");
     this.context = this.canvas.getContext("2d");
     this.width = this.canvas.width = window.innerWidth;
     this.height = this.canvas.height = window.innerHeight;
