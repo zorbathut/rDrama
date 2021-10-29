@@ -332,7 +332,7 @@ a.user-name {
 
 .spider:nth-child(9) {
 	animation-delay: 6000ms;
-	animation-duration: 10ms;
+	animation-duration: 200ms;
 	left: 90%;
 }
 
