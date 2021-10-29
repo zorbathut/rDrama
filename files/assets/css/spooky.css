@@ -512,8 +512,8 @@ Z-INDEX
   border-radius: 50%;
   margin: 20px;
   display: inline-block;
-  background: #00f7a5;
-  box-shadow: 0px 4.6666666667px 24px 3px #00f7a5;
+  background: #F7C929;
+  box-shadow: 0px 4.6666666667px 24px 3px #F7C929;
   -webkit-animation-name: flash-1;
           animation-name: flash-1;
   -webkit-animation-duration: 2s;
@@ -572,8 +572,8 @@ Z-INDEX
 
 @-webkit-keyframes flash-1 {
   0%, 100% {
-    background: #00f7a5;
-    box-shadow: 0px 4.6666666667px 24px 3px #00f7a5;
+    background: #F7C929;
+    box-shadow: 0px 4.6666666667px 24px 3px #F7C929;
   }
   50% {
     background: rgba(0, 247, 165, 0.4);
@@ -583,8 +583,8 @@ Z-INDEX
 
 @keyframes flash-1 {
   0%, 100% {
-    background: #00f7a5;
-    box-shadow: 0px 4.6666666667px 24px 3px #00f7a5;
+    background: #F7C929;
+    box-shadow: 0px 4.6666666667px 24px 3px #F7C929;
   }
   50% {
     background: rgba(0, 247, 165, 0.4);
