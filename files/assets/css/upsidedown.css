@@ -160,12 +160,23 @@ canvas.particles {
   bottom: -500px;
   width: 720px;
   filter: brightness(.17);
-  animation-name: lightning-appear;
-  animation-duration: 1350ms;
+  animation: lightning-appear 1350ms linear 36900ms 1 forwards
+  /*animation-duration: 1350ms;
   animation-delay: 36900ms;
   animation-iteration-count: 1;
   animation-timing-function: linear;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards;*/
+}
+
+.demogorgon.audio-playing.second {
+  opacity: 0;
+  position: fixed;
+  display: block;
+  left: 13%;
+  bottom: -490px;
+  width: 840px;
+  filter: brightness(.2);
+  animation: lightning-appear 1350ms linear 1 forwards;
 }
 
 /* Modify existing element styling to function with theme */
