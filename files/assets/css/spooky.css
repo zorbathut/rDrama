@@ -800,6 +800,10 @@ Z-INDEX
   animation-name:clouds;
   animation-iteration-count:infinite;
   animation-timing-function:linear;
+  position: absolute;
+  top:2.5em;
+  left:3em;
+  animation-duration:90s;
 }
 
 .marsey-witch img {
