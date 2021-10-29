@@ -151,7 +151,7 @@ body::after {
 
 /* Haunted Effect */
 
-.haunt {
+.haunt > div:not(.modal) {
 	animation: haunted 2500ms infinite;
 }
 
