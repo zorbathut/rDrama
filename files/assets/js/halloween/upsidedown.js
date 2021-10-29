@@ -121,7 +121,7 @@ function play() {
 
 window.addEventListener( 'load', function() {
   let demogorgon = document.getElementById('demogorgon')
-  audio.play();
+  //audio.play();
   document.getElementById('thread').addEventListener('click', () => {
     console.log('Watch out for the Demogorgon.');
     document.querySelector(":root").style.animation = 'lightning 1350ms linear 36900ms 1, lightning 1350ms linear 66000ms 1'
