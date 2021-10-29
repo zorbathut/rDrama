@@ -74,7 +74,7 @@ function init(elemid) {
   h = (canvas.height = window.innerHeight);
   st.fillStyle = "rgba(30,30,30,1)";
   st.fillRect(0, 0, w, h);
-  return c;
+  return st;
 }
 
 window.requestAnimFrame = (function() {
