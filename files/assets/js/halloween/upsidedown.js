@@ -120,8 +120,8 @@ function play() {
 
 
 window.addEventListener( 'load', function() {
-  let demogorgon1 = document.getElementById('demogorgon1')
-  let demogorgon2 = document.getElementById('demogorgon2')
+  let demogorgon1 = document.getElementById('demogorgon-1')
+  let demogorgon2 = document.getElementById('demogorgon-2')
   //audio.play();
   document.getElementById('thread').addEventListener('click', () => {
     console.log('Watch out for the Demogorgon.');
