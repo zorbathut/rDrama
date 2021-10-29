@@ -152,7 +152,7 @@ body::after {
 /* Haunted Effect */
 
 .haunt > div:not(.modal) {
-	animation: haunted 2500ms infinite;
+	animation: haunted 5000ms infinite;
 }
 
 @keyframes haunted {
