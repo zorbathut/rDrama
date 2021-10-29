@@ -151,6 +151,10 @@ body::after {
 
 /* Haunted Effect */
 
+.haunt {
+	animation: haunted 2s infinite;
+}
+
 @keyframes haunted {
 	0% {
 		filter: brightness(20%);
