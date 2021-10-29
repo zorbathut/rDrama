@@ -9,7 +9,7 @@ function update(e){
 document.addEventListener('mousemove',update)
 document.addEventListener('touchmove',update)
 
-let c = init("canvas"),
+let st = init("canvas"), // stranger things var
 w = (canvas.width = window.innerWidth),
 h = (canvas.height = window.innerHeight);
 //initiation
@@ -28,10 +28,10 @@ class firefly{
     this.ang += Math.random()*20*Math.PI/180-10*Math.PI/180;
   }
   show(){
-    c.beginPath();
-    c.arc(this.x,this.y,this.s,0,2*Math.PI);
-    c.fillStyle="#fff";
-    c.fill();
+    st.beginPath();
+    st.arc(this.x,this.y,this.s,0,2*Math.PI);
+    st.fillStyle="#fff";
+    st.fill();
   }
 }
 
@@ -69,11 +69,11 @@ canvas.addEventListener(
   );
 function init(elemid) {
   let canvas = document.getElementById(elemid),
-  c = canvas.getContext("2d"),
+  st = canvas.getContext("2d"),
   w = (canvas.width = window.innerWidth),
   h = (canvas.height = window.innerHeight);
-  c.fillStyle = "rgba(30,30,30,1)";
-  c.fillRect(0, 0, w, h);
+  st.fillStyle = "rgba(30,30,30,1)";
+  st.fillRect(0, 0, w, h);
   return c;
 }
 
@@ -92,7 +92,7 @@ window.requestAnimFrame = (function() {
 
 function loop() {
   window.requestAnimFrame(loop);
-  c.clearRect(0, 0, w, h);
+  st.clearRect(0, 0, w, h);
   draw();
 }
 
