@@ -175,7 +175,7 @@ body::after {
 		filter: brightness(20%);
 	}
 	96% {
-		filter: brightness(400%);
+		filter: brightness(300%);
 	}
 }
 
