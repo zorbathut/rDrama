@@ -792,6 +792,7 @@ Z-INDEX
 .banner-halloween h1{z-index:10;}
 .banner-halloween .moon{z-index:2;}
 .banner-halloween .cloud{z-index:2;}
+.banner-halloween .cloud:nth-child(even){z-index:11;}
 
 /* Stars */
 
