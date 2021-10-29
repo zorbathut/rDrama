@@ -27,7 +27,7 @@
 }
 
 a:hover.user-name {
-	cursor: url(https://i.ibb.co/C9vVnzs/Friday-the-13th-Jason-Voorhees-Cursor.png) 36 36, auto;
+	cursor: url('/assets/images/halloween/machete.png') 36 36, auto;
 }
 
 .border {
@@ -100,7 +100,7 @@ pre {
 body::before {
 	content: '';
 	position: fixed;
-	background-image: url('https://i.ibb.co/PjYVnsp/pngwing-com.png');
+	background-image: url('/assets/images/halloween/cobweb-bl.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	left: -1.5rem;
@@ -116,7 +116,7 @@ body::before {
 body::after {
 	content: '';
 	position: fixed;
-	background-image: url('https://i.ibb.co/QvD1XmR/Png-Item-6513764.png');
+	background-image: url('/assets/images/halloween/cobweb-tr.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	right: -1.5rem;
@@ -133,7 +133,7 @@ body::after {
 .blood::before {
 	content: '';
 	position: absolute;
-	background-image: url(https://i.ibb.co/yFr0Cng/ezgif-2-1b7b2ac9c3e6.gif);
+	background-image: url('/assets/images/halloween/blood.gif');
 	width: 100%;
 	height: 55px;
 	background-repeat: repeat-x;
