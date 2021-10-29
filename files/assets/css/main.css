@@ -5656,9 +5656,9 @@ blockquote p {
   margin-top: -3px;
 }
 
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
   .banner {
     margin-top: 10px !important;
   }
-}
+}*/
 
