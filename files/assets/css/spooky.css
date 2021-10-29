@@ -521,6 +521,12 @@ Z-INDEX
 
 /* Ghost */
 
+#ghost .ghost {
+	position: fixed;
+	margin:0 auto;
+    display:block;
+    pointer-events: none;
+}
 
 
 /* Spiders */
