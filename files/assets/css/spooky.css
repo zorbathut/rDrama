@@ -531,7 +531,7 @@ a.user-name {
 	pointer-events: none;
 }*/
 
-.post-meta.ghosts .fas, .post-meta.ghosts .far, .post-meta.ghosts .fad {
+.post-meta.ghosts .fa-broom, .post-meta.ghosts .fa-robot {
 	display: none;
 }
 
