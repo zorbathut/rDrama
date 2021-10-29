@@ -467,6 +467,10 @@ Z-INDEX
 
 /* Upside Down */
 
+.upsidedown {
+	filter: sepia(100%) hue-rotate(180deg) saturate(300%);
+}
+
 .upsidedown.blood::before {
 	filter: invert(1)
 }
