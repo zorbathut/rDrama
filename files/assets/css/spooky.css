@@ -583,7 +583,6 @@ svg .ghost
 }
 
 .spider {
-	pointer-events: none;
 	z-index: 1;
 	position: fixed;
 	display: inline-block;
@@ -596,6 +595,16 @@ svg .ghost
 
 	/* Bonus */
 	transition: 0.8s ease-in-out;
+}
+
+.spider:hover .body {
+	transform: rotate(15deg);
+	transition: 0.4s ease-in-out;
+}
+
+.spider:nth-child(odd):hover .body {
+	transform: rotate(-10deg);
+	transition: 0.2s ease-in-out;
 }
 
 .spider .spiderweb {
