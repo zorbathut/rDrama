@@ -152,7 +152,7 @@ body::after {
 /* Haunted Effect */
 
 .haunt > div:not(.modal) {
-	animation: haunted 2500ms infinite;
+	animation: haunted 5000ms infinite;
 }
 
 @keyframes haunted {
@@ -163,10 +163,10 @@ body::after {
 		filter: brightness(20%);
 	}
 	50% {
-		filter: sepia(1) contrast(2) brightness(200%);
+		filter: sepia(1) contrast(1.5) brightness(200%);
 	}
 	60% {
-		filter: sepia(1) contrast(2) brightness(200%);
+		filter: sepia(1) contrast(1.5) brightness(200%);
 	}
 	62% {
 		filter: brightness(20%);
@@ -175,7 +175,7 @@ body::after {
 		filter: brightness(20%);
 	}
 	96% {
-		filter: brightness(400%);
+		filter: brightness(300%);
 	}
 }
 
@@ -332,7 +332,7 @@ a.user-name {
 
 .spider:nth-child(9) {
 	animation-delay: 6000ms;
-	animation-duration: 10ms;
+	animation-duration: 200ms;
 	left: 90%;
 }
 
