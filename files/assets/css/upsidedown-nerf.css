@@ -1,8 +1,5 @@
 /* Flashlight Overlay */
 :root {
-  cursor: none;
-  --cursorX: 50vw;
-  --cursorY: 50vh;
   background-image: url('/assets/images/halloween/woods.jpg');
   background-size: cover;
   background-attachment: fixed;
