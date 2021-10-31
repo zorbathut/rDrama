@@ -57,7 +57,6 @@ function post_toast3(url, button1, button2) {
 
 report_commentModal = function(id, author) {
 
-document.getElementById("comment-author").textContent = author;
 
 document.getElementById("reportCommentButton").onclick = function() {
 
